@@ -1,0 +1,32 @@
+{
+  "data_dir": "datasets\\datasets",
+  "output_dir": "outputs\\exp_b_resnet18_no_aug",
+  "arch": "resnet18",
+  "weights": "imagenet",
+  "epochs": 5,
+  "batch_size": 32,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "image_size": 224,
+  "num_workers": 0,
+  "device": "cuda",
+  "seed": 42,
+  "train_per_class": 2000,
+  "val_per_class": 500,
+  "augmentation_enabled": false,
+  "train_size": 4000,
+  "val_size": 1000,
+  "train_distribution": {
+    "cat": 2000,
+    "dog": 2000
+  },
+  "val_distribution": {
+    "cat": 500,
+    "dog": 500
+  },
+  "class_to_idx": {
+    "cat": 0,
+    "dog": 1
+  },
+  "parameter_count": 11177538
+}

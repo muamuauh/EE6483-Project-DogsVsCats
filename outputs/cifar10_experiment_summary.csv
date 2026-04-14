@@ -1,0 +1,8 @@
+run_name,arch,weights,epochs,batch_size,learning_rate,train_size,test_size,augmentation_enabled,imbalance,imbalance_method,majority_per_class,minority_per_class,minority_classes,best_test_accuracy,best_epoch,total_training_time,best_checkpoint
+cifar10_imb_none,resnet18,imagenet,10,64,0.0001,27500,10000,True,True,none,5000,500,"5,6,7,8,9",0.904,9,12:38,outputs\cifar10_imb_none\best_model.pt
+cifar10_imb_oversampling,resnet18,imagenet,10,64,0.0001,27500,10000,True,True,oversampling,5000,500,"5,6,7,8,9",0.9202,9,12:35,outputs\cifar10_imb_oversampling\best_model.pt
+cifar10_imb_oversampling_smoke,resnet18,imagenet,1,16,0.0001,125,100,True,True,oversampling,20,5,"5,6,7,8,9",0.29,1,00:00,outputs\cifar10_imb_oversampling_smoke\best_model.pt
+cifar10_imb_weighted_loss,resnet18,imagenet,10,64,0.0001,27500,10000,True,True,weighted_loss,5000,500,"5,6,7,8,9",0.9138,7,12:39,outputs\cifar10_imb_weighted_loss\best_model.pt
+cifar10_imb_weighted_smoke,resnet18,imagenet,1,16,0.0001,125,100,True,True,weighted_loss,20,5,"5,6,7,8,9",0.18,1,00:00,outputs\cifar10_imb_weighted_smoke\best_model.pt
+cifar10_resnet18_balanced,resnet18,imagenet,10,64,0.0001,50000,10000,True,False,none,,,,0.9489,10,18:08,outputs\cifar10_resnet18_balanced\best_model.pt
+cifar10_smoke,resnet18,imagenet,1,32,0.0001,200,100,True,False,none,,,,0.28,1,00:01,outputs\cifar10_smoke\best_model.pt

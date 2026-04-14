@@ -1,0 +1,6 @@
+run_name,goal,arch,weights,epochs,batch_size,learning_rate,train_per_class,val_per_class,augmentation_enabled,best_val_accuracy,kept_for_report,notes
+exp_a_resnet18_baseline,main baseline,resnet18,imagenet,5,32,1e-4,2000,500,yes,,, 
+exp_b_resnet18_no_aug,augmentation comparison,resnet18,imagenet,5,32,1e-4,2000,500,no,,, 
+exp_c_simple_cnn,model comparison,simple_cnn,none,5,32,1e-4,2000,500,yes,,, 
+exp_d_resnet34,deeper backbone comparison,resnet34,imagenet,5,32,1e-4,2000,500,yes,,, 
+exp_e_best_longer,final stronger model,TBD,TBD,8,32,1e-4,5000,1000,TBD,,, 

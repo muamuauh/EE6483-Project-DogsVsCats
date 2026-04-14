@@ -1,0 +1,32 @@
+{
+  "data_dir": "datasets\\datasets",
+  "output_dir": "outputs\\final_resnet34_full",
+  "arch": "resnet34",
+  "weights": "imagenet",
+  "epochs": 8,
+  "batch_size": 32,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "image_size": 224,
+  "num_workers": 4,
+  "device": "cuda",
+  "seed": 42,
+  "train_per_class": null,
+  "val_per_class": null,
+  "augmentation_enabled": true,
+  "train_size": 20000,
+  "val_size": 5000,
+  "train_distribution": {
+    "cat": 10000,
+    "dog": 10000
+  },
+  "val_distribution": {
+    "cat": 2500,
+    "dog": 2500
+  },
+  "class_to_idx": {
+    "cat": 0,
+    "dog": 1
+  },
+  "parameter_count": 21285698
+}

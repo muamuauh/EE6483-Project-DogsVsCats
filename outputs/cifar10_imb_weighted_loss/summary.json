@@ -1,0 +1,9 @@
+{
+  "best_test_accuracy": 0.9138,
+  "best_epoch": 7,
+  "epochs_completed": 10,
+  "total_training_seconds": 759.7385313510895,
+  "total_training_time": "12:39",
+  "best_checkpoint": "outputs\\cifar10_imb_weighted_loss\\best_model.pt",
+  "last_checkpoint": "outputs\\cifar10_imb_weighted_loss\\last_model.pt"
+}

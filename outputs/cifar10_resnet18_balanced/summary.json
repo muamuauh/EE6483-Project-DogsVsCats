@@ -1,0 +1,9 @@
+{
+  "best_test_accuracy": 0.9489,
+  "best_epoch": 10,
+  "epochs_completed": 10,
+  "total_training_seconds": 1088.7251496315002,
+  "total_training_time": "18:08",
+  "best_checkpoint": "outputs\\cifar10_resnet18_balanced\\best_model.pt",
+  "last_checkpoint": "outputs\\cifar10_resnet18_balanced\\last_model.pt"
+}

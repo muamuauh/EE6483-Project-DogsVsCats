@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local IDE/editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+__MACOSX/
+datasets/__MACOSX/
+
+# Local temporary logs
+*.log
+
+# Local smoke-test outputs
+outputs/smoke_test/
+outputs/resnet18_smoke/
+outputs/cifar10_smoke/
+outputs/cifar10_imb_weighted_smoke/
+outputs/cifar10_imb_oversampling_smoke/

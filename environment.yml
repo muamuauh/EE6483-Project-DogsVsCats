@@ -1,0 +1,15 @@
+name: 6483_project
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pillow
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - pip:
+      - torch
+      - torchvision
+      - torchaudio

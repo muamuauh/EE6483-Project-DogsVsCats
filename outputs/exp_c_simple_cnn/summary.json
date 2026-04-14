@@ -1,0 +1,8 @@
+{
+  "best_val_accuracy": 0.635,
+  "epochs_completed": 5,
+  "total_training_seconds": 73.34225940704346,
+  "total_training_time": "01:13",
+  "best_checkpoint": "outputs\\exp_c_simple_cnn\\best_model.pt",
+  "last_checkpoint": "outputs\\exp_c_simple_cnn\\last_model.pt"
+}

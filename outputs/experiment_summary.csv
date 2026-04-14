@@ -1,0 +1,7 @@
+run_name,arch,weights,epochs,batch_size,learning_rate,weight_decay,image_size,train_size,val_size,augmentation_enabled,device,best_val_accuracy,total_training_time,best_checkpoint,train_cat,train_dog,val_cat,val_dog
+exp_a_resnet18_baseline,resnet18,imagenet,5,32,0.0001,0.0001,224,4000,1000,True,cuda,0.987,01:32,outputs\exp_a_resnet18_baseline\best_model.pt,2000,2000,500,500
+exp_b_resnet18_no_aug,resnet18,imagenet,5,32,0.0001,0.0001,224,4000,1000,False,cuda,0.988,01:20,outputs\exp_b_resnet18_no_aug\best_model.pt,2000,2000,500,500
+exp_c_simple_cnn,simple_cnn,none,5,32,0.0001,0.0001,224,4000,1000,True,cuda,0.635,01:13,outputs\exp_c_simple_cnn\best_model.pt,2000,2000,500,500
+exp_d_resnet34,resnet34,imagenet,5,32,0.0001,0.0001,224,4000,1000,True,cuda,0.992,01:45,outputs\exp_d_resnet34\best_model.pt,2000,2000,500,500
+resnet18_smoke,resnet18,none,1,2,0.0001,0.0001,224,2,2,True,cpu,0.5,00:00,outputs\resnet18_smoke\best_model.pt,1,1,1,1
+smoke_test,simple_cnn,none,1,2,0.0001,0.0001,224,4,4,True,cpu,0.5,00:00,outputs\smoke_test\best_model.pt,2,2,2,2

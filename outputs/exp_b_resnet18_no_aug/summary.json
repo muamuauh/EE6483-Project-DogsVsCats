@@ -1,0 +1,8 @@
+{
+  "best_val_accuracy": 0.988,
+  "epochs_completed": 5,
+  "total_training_seconds": 80.64569473266602,
+  "total_training_time": "01:20",
+  "best_checkpoint": "outputs\\exp_b_resnet18_no_aug\\best_model.pt",
+  "last_checkpoint": "outputs\\exp_b_resnet18_no_aug\\last_model.pt"
+}
