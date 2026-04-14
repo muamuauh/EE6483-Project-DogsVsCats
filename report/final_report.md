@@ -130,7 +130,7 @@ Environment:
 
 ```powershell
 conda activate 6483_project
-cd d:\school\6483\project
+cd project folder
 ```
 
 Final Dogs vs Cats training command:
