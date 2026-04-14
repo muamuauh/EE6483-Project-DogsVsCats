@@ -1,6 +1,31 @@
 
-# EE6483 Artificial Intelligence and Data Mining  
+# EE6483 Artificial Intelligence and Data Mining
+
 # Mini Project Option 2: Dogs vs Cats Image Classification
+
+## Cover Page
+
+**Course:** EE6483 Artificial Intelligence and Data Mining  
+**Project:** Mini Project Option 2: Dogs vs Cats  
+**Task:** Binary Dogs vs Cats Classification, CIFAR-10 Extension, and CIFAR-10 Class Imbalance Study  
+**GitHub Repository:** https://github.com/muamuauh/EE6483-Project-DogsVsCats  
+**Submission File:** `outputs/final_resnet34_full/submission.csv`
+
+## Table of Contents
+
+1. [Group Information](#group-information)
+2. [Abstract](#abstract)
+3. [Literature Survey](#1-literature-survey)
+4. [Dataset Usage and Preprocessing](#2-dataset-usage-and-preprocessing)
+5. [Model and Training Strategy](#3-model-and-training-strategy)
+6. [Parameter Selection](#4-parameter-selection)
+7. [Dogs vs Cats Results](#5-dogs-vs-cats-results)
+8. [Correct and Incorrect Sample Analysis](#6-correct-and-incorrect-sample-analysis)
+9. [Effect of Model Choice and Data Processing](#7-effect-of-model-choice-and-data-processing)
+10. [CIFAR-10 Extension](#8-cifar-10-extension)
+11. [CIFAR-10 Class Imbalance Experiment](#9-cifar-10-class-imbalance-experiment)
+12. [Conclusion](#10-conclusion)
+13. [References](#references)
 
 ## Group Information
 
