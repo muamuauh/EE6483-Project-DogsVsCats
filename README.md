@@ -192,12 +192,6 @@ The formal report draft is:
 report/final_report.md
 ```
 
-Before submission, fill in the group member table:
-
-- Name
-- Email
-- Matriculation No.
-
 The report uses the following division of work:
 
 - Member A: Data processing, Dogs vs Cats baseline, final submission generation.
