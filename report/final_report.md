@@ -1,39 +1,67 @@
+<div align="center">
 
 # EE6483 Artificial Intelligence and Data Mining
 
-# Mini Project Option 2: Dogs vs Cats Image Classification
+<br>
 
-## Cover Page
+# Mini Project Option 2
 
-**Course:** EE6483 Artificial Intelligence and Data Mining  
-**Project:** Mini Project Option 2: Dogs vs Cats  
-**Task:** Binary Dogs vs Cats Classification, CIFAR-10 Extension, and CIFAR-10 Class Imbalance Study  
-**GitHub Repository:** https://github.com/muamuauh/EE6483-Project-DogsVsCats  
-**Submission File:** `outputs/final_resnet34_full/submission.csv`
+# Dogs vs Cats Image Classification
+
+<br>
+<br>
+
+**Task:** Binary Dogs vs Cats Classification, CIFAR-10 Extension, and CIFAR-10 Class Imbalance Study
+
+<br>
+
+**GitHub Repository:**  
+https://github.com/muamuauh/EE6483-Project-DogsVsCats
+
+<br>
+
+**Group Members:**  
+[Member A], [Member B], [Member C]
+
+<br>
+<br>
+
+**Submitted Materials:**  
+Final report, `submission.csv`, source code, trained weights, and experiment outputs
+
+</div>
+
+<div style="page-break-after: always;"></div>
 
 ## Table of Contents
 
-1. [Group Information](#group-information)
-2. [Abstract](#abstract)
-3. [Literature Survey](#1-literature-survey)
-4. [Dataset Usage and Preprocessing](#2-dataset-usage-and-preprocessing)
-5. [Model and Training Strategy](#3-model-and-training-strategy)
-6. [Parameter Selection](#4-parameter-selection)
-7. [Dogs vs Cats Results](#5-dogs-vs-cats-results)
-8. [Correct and Incorrect Sample Analysis](#6-correct-and-incorrect-sample-analysis)
-9. [Effect of Model Choice and Data Processing](#7-effect-of-model-choice-and-data-processing)
-10. [CIFAR-10 Extension](#8-cifar-10-extension)
-11. [CIFAR-10 Class Imbalance Experiment](#9-cifar-10-class-imbalance-experiment)
-12. [Conclusion](#10-conclusion)
-13. [References](#references)
+| Section | Title |
+|---:|---|
+| 1 | [Group Information](#group-information) |
+| 2 | [Abstract](#abstract) |
+| 3 | [Literature Survey](#1-literature-survey) |
+| 4 | [Dataset Usage and Preprocessing](#2-dataset-usage-and-preprocessing) |
+| 5 | [Model and Training Strategy](#3-model-and-training-strategy) |
+| 6 | [Parameter Selection](#4-parameter-selection) |
+| 7 | [Dogs vs Cats Results](#5-dogs-vs-cats-results) |
+| 8 | [Correct and Incorrect Sample Analysis](#6-correct-and-incorrect-sample-analysis) |
+| 9 | [Effect of Model Choice and Data Processing](#7-effect-of-model-choice-and-data-processing) |
+| 10 | [CIFAR-10 Extension](#8-cifar-10-extension) |
+| 11 | [CIFAR-10 Class Imbalance Experiment](#9-cifar-10-class-imbalance-experiment) |
+| 12 | [Conclusion](#10-conclusion) |
+| 13 | [References](#references) |
+
+<div style="page-break-after: always;"></div>
 
 ## Group Information
 
 | Role | Name | Email | Matriculation No. | Main contribution |
 |---|---|---|---|---|
-| Member A | [Name] | [Email] | [Matriculation No.] | Data processing, Dogs vs Cats baseline, final submission generation |
-| Member B | [Name] | [Email] | [Matriculation No.] | Literature survey, model comparison experiments, correct/incorrect sample analysis |
-| Member C | [Name] | [Email] | [Matriculation No.] | CIFAR-10 extension, class imbalance experiments, report integration and formatting |
+| Member A | [Name hidden] | [Email hidden] | [Matriculation No. hidden] | Data processing, Dogs vs Cats baseline, final submission generation |
+| Member B | [Name hidden] | [Email hidden] | [Matriculation No. hidden] | Literature survey, model comparison experiments, correct/incorrect sample analysis |
+| Member C | [Name hidden] | [Email hidden] | [Matriculation No. hidden] | CIFAR-10 extension, class imbalance experiments, report integration and formatting |
+
+<div style="page-break-after: always;"></div>
 
 ## Abstract
 
@@ -417,3 +445,4 @@ For CIFAR-10, the same transfer-learning framework was successfully extended to 
 [7] A. Krizhevsky, V. Nair, and G. Hinton, "CIFAR-10 and CIFAR-100 datasets." https://www.cs.toronto.edu/~kriz/cifar.html
 
 [8] Kaggle, "Dogs vs. Cats." https://www.kaggle.com/c/dogs-vs-cats
+
